@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary Meta Tags -->
+  <title>Reflex Duels - Brain Games | Fast Reflex & Puzzle Battles for iOS</title>
+  <meta name="description" content="Think fast. Act faster. Reflex Duels features 20+ brain-bending mini-games - reaction speed tests, trivia, puzzles, and 2-player duels. Download free on iOS.">
+  <meta name="keywords" content="reaction,speed,trivia,multiplayer,2 player,daily challenge,brain training,quiz,mental,cognitive,duel,reflex game,brain games,puzzle battles,iOS game,brain test">
+  <meta name="author" content="Reflex Duels">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://marcinax.github.io/reflex-duels/">
+
+  <!-- Alternate Languages -->
+  <link rel="alternate" hreflang="en" href="https://marcinax.github.io/reflex-duels/">
+  <link rel="alternate" hreflang="pl" href="https://marcinax.github.io/reflex-duels/?lang=pl">
+  <link rel="alternate" hreflang="x-default" href="https://marcinax.github.io/reflex-duels/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Reflex Duels - Brain Games | Fast Reflex & Puzzle Battles">
+  <meta property="og:description" content="20+ brain-bending mini-games. Three ways to play. Test your reflexes, logic, and speed.">
+  <meta property="og:image" content="https://marcinax.github.io/reflex-duels/assets/og-image.png">
+  <meta property="og:url" content="https://marcinax.github.io/reflex-duels/">
+  <meta property="og:site_name" content="Reflex Duels">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="pl_PL">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Reflex Duels - Brain Games | Fast Reflex & Puzzle Battles">
+  <meta name="twitter:description" content="20+ brain-bending mini-games. Three ways to play. Test your reflexes, logic, and speed.">
+  <meta name="twitter:image" content="https://marcinax.github.io/reflex-duels/assets/og-image.png">
+
+  <!-- Apple Smart Banner -->
+  <meta name="apple-itunes-app" content="app-id=6760288980">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/app-icon.png">
+  <link rel="apple-touch-icon" href="assets/app-icon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;900&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Reflex Duels",
+    "alternateName": "Reflex Duels - Brain Games",
+    "description": "20+ brain-bending mini-games designed to challenge your reflexes, logic, and focus. Three ways to play: Solo Endless, Daily Challenge, and 2-Player split-screen duels.",
+    "operatingSystem": "iOS",
+    "applicationCategory": "GameApplication",
+    "applicationSubCategory": "Puzzle",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "screenshot": [
+      "https://marcinax.github.io/reflex-duels/assets/screenshots/en/01_home.png",
+      "https://marcinax.github.io/reflex-duels/assets/screenshots/en/04_solo_late.png",
+      "https://marcinax.github.io/reflex-duels/assets/screenshots/en/02_splitscreen.png"
+    ],
+    "featureList": "20+ mini-games, 9 speed zones, daily challenges, 2-player split-screen, Game Center achievements, global leaderboards",
+    "image": "https://marcinax.github.io/reflex-duels/assets/app-icon.png"
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- ════════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════════ -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <img src="assets/app-icon.png" alt="Reflex Duels app icon" width="32" height="32">
+        <span>Reflex Duels</span>
+      </a>
+
+      <ul class="nav__links">
+        <li><a href="#modes" data-i18n="nav.modes">Game Modes</a></li>
+        <li><a href="#screenshots" data-i18n="nav.screenshots">Screenshots</a></li>
+        <li><a href="#features" data-i18n="nav.features">Features</a></li>
+        <li><a href="#download" data-i18n="nav.download">Download</a></li>
+      </ul>
+
+      <div class="nav__right">
+        <div class="lang-toggle">
+          <button class="lang-toggle__btn active" data-lang="en" aria-label="English">EN</button>
+          <button class="lang-toggle__btn" data-lang="pl" aria-label="Polski">PL</button>
+        </div>
+        <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-nav" aria-hidden="true">
+    <a href="#modes" data-i18n="nav.modes">Game Modes</a>
+    <a href="#screenshots" data-i18n="nav.screenshots">Screenshots</a>
+    <a href="#features" data-i18n="nav.features">Features</a>
+    <a href="#download" data-i18n="nav.download">Download</a>
+  </div>
+
+  <!-- ════════════════════════════════════════════
+       HERO
+  ════════════════════════════════════════════ -->
+  <section class="hero" aria-label="Hero">
+    <!-- Glow effects -->
+    <div class="glow glow--cyan" style="width:500px;height:500px;top:15%;right:10%"></div>
+    <div class="glow glow--purple" style="width:420px;height:420px;top:45%;left:5%"></div>
+    <div class="glow glow--blue" style="width:550px;height:550px;bottom:5%;left:40%"></div>
+
+    <div class="hero__inner">
+      <div class="hero__content">
+        <img class="hero__icon" src="assets/app-icon.png" alt="Reflex Duels - brain games and reflex training app icon" width="96" height="96">
+        <p class="hero__label">REFLEX GAME</p>
+        <h1 class="hero__headline">
+          <span data-i18n="hero.headline_1">Think fast.</span><br>
+          <span data-i18n="hero.headline_2">Act faster.</span>
+        </h1>
+        <p class="hero__subtitle" data-i18n="hero.subtitle">20+ brain-bending mini-games designed to challenge your reflexes, logic, and focus - all in seconds.</p>
+        <a href="https://apps.apple.com/app/reflexduels-brain-games/id6760288980" class="app-store-badge" target="_blank" rel="noopener" aria-label="Download Reflex Duels on the App Store">
+          <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" height="48" width="144">
+        </a>
+      </div>
+
+      <div class="hero__phone">
+        <div class="phone-mockup">
+          <div class="phone-mockup__screen">
+            <img data-screenshot="01_home.png" src="assets/screenshots/en/01_home.png" data-i18n-alt="screenshots.alt_home" alt="Reflex Duels home screen - choose Solo, Daily Challenge, or 2 Players mode" width="918" height="1990">
+          </div>
+          <img class="phone-mockup__frame" src="assets/mockup.png" alt="" width="1022" height="2082" aria-hidden="true">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       GAME MODES
+  ════════════════════════════════════════════ -->
+  <section id="modes" class="section modes" aria-label="Game Modes">
+    <div class="container">
+      <h2 class="section-title reveal" data-i18n="modes.section_title">Three Ways to Play</h2>
+
+      <div class="modes__grid">
+        <article class="mode-card mode-card--solo reveal">
+          <div class="mode-card__icon" aria-hidden="true">🔥</div>
+          <h3 class="mode-card__title" data-i18n="modes.solo.title">Solo - Endless Mode</h3>
+          <p class="mode-card__desc" data-i18n="modes.solo.desc">Push through 9 speed zones - from Calm to Impossible. Every correct answer builds your streak multiplier and score. How long can you survive as the timer keeps shrinking?</p>
+        </article>
+
+        <article class="mode-card mode-card--daily reveal">
+          <div class="mode-card__icon" aria-hidden="true">📅</div>
+          <h3 class="mode-card__title" data-i18n="modes.daily.title">Daily Challenge</h3>
+          <p class="mode-card__desc" data-i18n="modes.daily.desc">Same 20 puzzles for every player, every day. Race against the clock at 2.5 seconds per round. Climb the daily leaderboard and build your streak.</p>
+        </article>
+
+        <article class="mode-card mode-card--versus reveal">
+          <div class="mode-card__icon" aria-hidden="true">⚔️</div>
+          <h3 class="mode-card__title" data-i18n="modes.versus.title">2 Players - Split-Screen</h3>
+          <p class="mode-card__desc" data-i18n="modes.versus.desc">Hand your iPhone to a friend and go head-to-head on the same screen. 10 rounds of reflex-testing mini-games. No second device needed.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       SCREENSHOTS
+  ════════════════════════════════════════════ -->
+  <section id="screenshots" class="section screenshots" aria-label="Screenshots">
+    <!-- Glow effects -->
+    <div class="glow glow--cyan" style="width:400px;height:400px;top:20%;left:15%"></div>
+    <div class="glow glow--purple" style="width:350px;height:350px;bottom:20%;right:10%"></div>
+
+    <div class="container">
+      <h2 class="section-title reveal" data-i18n="screenshots.section_title">See It in Action</h2>
+
+      <div class="carousel">
+        <div class="carousel__track">
+
+          <div class="carousel__slide">
+            <div class="phone-mockup">
+              <div class="phone-mockup__screen">
+                <img data-screenshot="01_home.png" src="assets/screenshots/en/01_home.png" data-i18n-alt="screenshots.alt_home" alt="Reflex Duels home screen - choose Solo, Daily Challenge, or 2 Players mode" loading="lazy" width="918" height="1990">
+              </div>
+              <img class="phone-mockup__frame" src="assets/mockup.png" alt="" loading="lazy" width="1022" height="2082" aria-hidden="true">
+            </div>
+          </div>
+
+          <div class="carousel__slide">
+            <div class="phone-mockup">
+              <div class="phone-mockup__screen">
+                <img data-screenshot="04_solo_late.png" src="assets/screenshots/en/04_solo_late.png" data-i18n-alt="screenshots.alt_solo" alt="Reflex Duels solo mode gameplay - 9 speed zones from Calm to Impossible" loading="lazy" width="918" height="1990">
+              </div>
+              <img class="phone-mockup__frame" src="assets/mockup.png" alt="" loading="lazy" width="1022" height="2082" aria-hidden="true">
+            </div>
+          </div>
+
+          <div class="carousel__slide">
+            <div class="phone-mockup">
+              <div class="phone-mockup__screen">
+                <img data-screenshot="05_daily.png" src="assets/screenshots/en/05_daily.png" data-i18n-alt="screenshots.alt_daily" alt="Reflex Duels daily challenge - same puzzles for all players worldwide every day" loading="lazy" width="918" height="1990">
+              </div>
+              <img class="phone-mockup__frame" src="assets/mockup.png" alt="" loading="lazy" width="1022" height="2082" aria-hidden="true">
+            </div>
+          </div>
+
+          <div class="carousel__slide">
+            <div class="phone-mockup">
+              <div class="phone-mockup__screen">
+                <img data-screenshot="02_splitscreen.png" src="assets/screenshots/en/02_splitscreen.png" data-i18n-alt="screenshots.alt_splitscreen" alt="Reflex Duels 2-player split-screen mode - head-to-head brain game duels on one iPhone" loading="lazy" width="918" height="1990">
+              </div>
+              <img class="phone-mockup__frame" src="assets/mockup.png" alt="" loading="lazy" width="1022" height="2082" aria-hidden="true">
+            </div>
+          </div>
+
+          <div class="carousel__slide">
+            <div class="phone-mockup">
+              <div class="phone-mockup__screen">
+                <img data-screenshot="03_minigames_front.png" src="assets/screenshots/en/03_minigames_front.png" data-i18n-alt="screenshots.alt_minigames" alt="Reflex Duels mini-games variety - math, colors, symbols, and more brain training puzzles" loading="lazy" width="918" height="1990">
+              </div>
+              <img class="phone-mockup__frame" src="assets/mockup.png" alt="" loading="lazy" width="1022" height="2082" aria-hidden="true">
+            </div>
+          </div>
+
+          <div class="carousel__slide">
+            <div class="phone-mockup">
+              <div class="phone-mockup__screen">
+                <img data-screenshot="06_gameover.png" src="assets/screenshots/en/06_gameover.png" data-i18n-alt="screenshots.alt_gameover" alt="Reflex Duels game over screen - score, stats, streaks, and global leaderboard" loading="lazy" width="918" height="1990">
+              </div>
+              <img class="phone-mockup__frame" src="assets/mockup.png" alt="" loading="lazy" width="1022" height="2082" aria-hidden="true">
+            </div>
+          </div>
+
+        </div>
+
+        <div class="carousel__dots">
+          <button class="carousel__dot active" aria-label="Slide 1"></button>
+          <button class="carousel__dot" aria-label="Slide 2"></button>
+          <button class="carousel__dot" aria-label="Slide 3"></button>
+          <button class="carousel__dot" aria-label="Slide 4"></button>
+          <button class="carousel__dot" aria-label="Slide 5"></button>
+          <button class="carousel__dot" aria-label="Slide 6"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       FEATURES
+  ════════════════════════════════════════════ -->
+  <section id="features" class="section features" aria-label="Features">
+    <div class="container">
+      <h2 class="section-title reveal" data-i18n="features.section_title">Built for Speed</h2>
+
+      <div class="features__grid">
+        <article class="feature-card feature-card--minigames reveal">
+          <div class="feature-card__icon" aria-hidden="true">🧩</div>
+          <h3 class="feature-card__title" data-i18n="features.minigames.title">20+ Mini-Games</h3>
+          <p class="feature-card__desc" data-i18n="features.minigames.desc">Math, Stroop tests, symbol search, flag quizzes, dice puzzles, reaction games, and more. Every round is a different brain challenge.</p>
+        </article>
+
+        <article class="feature-card feature-card--zones reveal">
+          <div class="feature-card__icon" aria-hidden="true">⚡</div>
+          <h3 class="feature-card__title" data-i18n="features.zones.title">9 Speed Zones</h3>
+          <p class="feature-card__desc" data-i18n="features.zones.desc">Progressive difficulty from Calm to Impossible. The timer shrinks with every zone - can you reach the final stage?</p>
+        </article>
+
+        <article class="feature-card feature-card--gamecenter reveal">
+          <div class="feature-card__icon" aria-hidden="true">🏆</div>
+          <h3 class="feature-card__title" data-i18n="features.gamecenter.title">Game Center</h3>
+          <p class="feature-card__desc" data-i18n="features.gamecenter.desc">35 achievements to unlock. Track your progress with scores, streaks, perfect zones, and total rounds played.</p>
+        </article>
+
+        <article class="feature-card feature-card--daily reveal">
+          <div class="feature-card__icon" aria-hidden="true">📅</div>
+          <h3 class="feature-card__title" data-i18n="features.daily.title">Daily Challenges</h3>
+          <p class="feature-card__desc" data-i18n="features.daily.desc">A new set of 20 puzzles every day. Compete globally on the same challenge and earn free tokens.</p>
+        </article>
+
+        <article class="feature-card feature-card--leaderboards reveal">
+          <div class="feature-card__icon" aria-hidden="true">🌍</div>
+          <h3 class="feature-card__title" data-i18n="features.leaderboards.title">Global Leaderboards</h3>
+          <p class="feature-card__desc" data-i18n="features.leaderboards.desc">Climb the all-time solo rankings and the daily challenge leaderboard. See how you stack up worldwide.</p>
+        </article>
+
+        <article class="feature-card feature-card--design reveal">
+          <div class="feature-card__icon" aria-hidden="true">🌙</div>
+          <h3 class="feature-card__title" data-i18n="features.design.title">Dark Theme</h3>
+          <p class="feature-card__desc" data-i18n="features.design.desc">Zero distractions. Clean dark interface with instant haptic feedback. Every millisecond counts.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       DOWNLOAD CTA
+  ════════════════════════════════════════════ -->
+  <section id="download" class="section cta-section" aria-label="Download">
+    <!-- Glow effects -->
+    <div class="glow glow--cyan" style="width:500px;height:500px;top:30%;left:50%;transform:translateX(-50%)"></div>
+    <div class="glow glow--purple" style="width:300px;height:300px;top:10%;right:20%"></div>
+
+    <div class="container" style="position:relative;z-index:1">
+      <img class="cta-section__icon reveal" src="assets/app-icon.png" alt="Reflex Duels app icon" width="96" height="96">
+      <h2 class="cta-section__tagline reveal" data-i18n="cta.tagline">How fast is your brain?</h2>
+      <p class="cta-section__subtitle reveal" data-i18n="cta.subtitle">Download Reflex Duels and find out.</p>
+      <a href="https://apps.apple.com/app/reflexduels-brain-games/id6760288980" class="app-store-badge reveal" target="_blank" rel="noopener" aria-label="Download Reflex Duels on the App Store">
+        <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" height="48" width="144">
+      </a>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner">
+      <div class="footer__links">
+        <a href="privacy-policy.html" data-i18n="footer.privacy">Privacy Policy</a>
+        <a href="mailto:contact@fitnesster.app" data-i18n="footer.support">Support</a>
+      </div>
+      <p class="footer__tagline" data-i18n="footer.tagline">Reflex Duels - Brain Training & Reflex Game for iOS</p>
+      <p class="footer__copyright" data-i18n="footer.copyright">&copy; 2025 Reflex Duels. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts (deferred) -->
+  <script src="js/i18n.js" defer></script>
+  <script src="js/main.js" defer></script>
+
+  <!-- No-JS fallback -->
+  <noscript>
+    <style>.reveal { opacity: 1; transform: none; }</style>
+  </noscript>
+
+</body>
+</html>

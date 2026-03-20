@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "title": "Reflex Duels - Gry na Refleks | Szybkie Łamigłówki i Duele na iOS",
+    "description": "Myśl szybko. Reaguj szybciej. Reflex Duels to ponad 20 mini-gier, które sprawdzą Twój refleks, logikę i spostrzegawczość. Tryb solo, wyzwanie dnia i gra na 2 graczy. Pobierz za darmo na iOS."
+  },
+  "nav": {
+    "features": "O grze",
+    "modes": "Tryby gry",
+    "screenshots": "Galeria",
+    "download": "Pobierz"
+  },
+  "hero": {
+    "headline_1": "Myśl szybko.",
+    "headline_2": "Reaguj szybciej.",
+    "subtitle": "Ponad 20 mini-gier, które sprawdzą Twój refleks, logikę i spostrzegawczość - a na każdą masz zaledwie kilka sekund.",
+    "cta": "Pobierz z App Store"
+  },
+  "modes": {
+    "section_title": "Trzy tryby gry",
+    "solo": {
+      "title": "Solo - Bez końca",
+      "desc": "Zacznij od spokojnego tempa, a skończ w strefie Niemożliwej. 9 stref o rosnącym poziomie trudności - czas na odpowiedź spada. Trafiaj, buduj serię, zbieraj mnożniki. Jeden błąd - jedno życie mniej."
+    },
+    "daily": {
+      "title": "Wyzwanie Dnia",
+      "desc": "Codziennie nowy zestaw 20 zagadek - taki sam dla wszystkich graczy na świecie. 2,5 sekundy na rundę, 3 życia. Sprawdź, jak wypadasz na tle innych i buduj swoją codzienną passę."
+    },
+    "versus": {
+      "title": "2 Graczy - Jeden ekran",
+      "desc": "Podaj telefon znajomemu i grajcie na podzielonym ekranie. Kto pierwszy trafi - zdobywa punkt. Kto się pomyli - traci. Idealne na imprezę, w podróż albo na przerwę."
+    }
+  },
+  "screenshots": {
+    "section_title": "Zobacz w akcji",
+    "alt_home": "Ekran główny Reflex Duels - wybierz tryb Solo, Wyzwanie Dnia lub 2 Graczy",
+    "alt_splitscreen": "Reflex Duels tryb 2 graczy na podzielonym ekranie - duele na refleks na jednym iPhonie",
+    "alt_minigames": "Mini-gry Reflex Duels - matematyka, kolory, symbole i inne łamigłówki treningowe dla mózgu",
+    "alt_solo": "Reflex Duels tryb solo - 9 stref szybkości od Calm do Impossible",
+    "alt_daily": "Reflex Duels wyzwanie dnia - te same zagadki dla wszystkich graczy na świecie",
+    "alt_gameover": "Ekran końca gry Reflex Duels - wynik, statystyki, serie i globalny ranking"
+  },
+  "features": {
+    "section_title": "Co znajdziesz w grze",
+    "minigames": {
+      "title": "Ponad 20 mini-gier",
+      "desc": "Matematyka, kolory, prawda/fałsz, szukanie różnic, strzałki, symbole, flagi, sekwencje liczbowe. Każda runda to inne wyzwanie."
+    },
+    "zones": {
+      "title": "9 stref szybkości",
+      "desc": "Z każdą strefą masz mniej czasu na reakcję. Mnożnik serii aż do 10x i bonusy za szybkość - dotrzesz do finału?"
+    },
+    "gamecenter": {
+      "title": "Osiągnięcia",
+      "desc": "Odblokuj osiągnięcia Game Center za wyniki, serie trafień, perfekcyjne strefy, rozegrane rundy i więcej."
+    },
+    "daily": {
+      "title": "Codzienne wyzwania",
+      "desc": "Codziennie te same zagadki dla każdego. Globalny ranking dzienny i darmowy żeton za ukończenie."
+    },
+    "leaderboards": {
+      "title": "Globalne rankingi",
+      "desc": "Wspinaj się w globalnych rankingach. Sprawdź, jak wypadasz na tle graczy z całego świata."
+    },
+    "design": {
+      "title": "Ciemny motyw",
+      "desc": "Minimalistyczny interfejs. Wibracje przy każdej odpowiedzi. Liczy się każda milisekunda - nic Cię nie rozprasza."
+    }
+  },
+  "cta": {
+    "tagline": "Na co stać Twój refleks?",
+    "subtitle": "Pobierz Reflex Duels i sprawdź.",
+    "button": "Pobierz z App Store"
+  },
+  "footer": {
+    "privacy": "Polityka prywatności",
+    "support": "Wsparcie",
+    "tagline": "Reflex Duels - Trening mózgu i gra na refleks na iOS",
+    "copyright": "© 2025 Reflex Duels. Wszelkie prawa zastrzeżone."
+  }
+}

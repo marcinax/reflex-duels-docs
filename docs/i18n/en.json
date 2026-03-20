@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "title": "Reflex Duels - Brain Games | Fast Reflex & Puzzle Battles for iOS",
+    "description": "Think fast. Act faster. Reflex Duels features 20+ brain-bending mini-games - reaction speed tests, trivia, puzzles, and 2-player duels. Download free on iOS."
+  },
+  "nav": {
+    "features": "Features",
+    "modes": "Game Modes",
+    "screenshots": "Screenshots",
+    "download": "Download"
+  },
+  "hero": {
+    "headline_1": "Think fast.",
+    "headline_2": "Act faster.",
+    "subtitle": "20+ brain-bending mini-games designed to challenge your reflexes, logic, and focus - all in seconds.",
+    "cta": "Download on the App Store"
+  },
+  "modes": {
+    "section_title": "Three Ways to Play",
+    "solo": {
+      "title": "Solo - Endless Mode",
+      "desc": "Push through 9 speed zones - from Calm to Impossible. Every correct answer builds your streak multiplier and score. How long can you survive as the timer keeps shrinking?"
+    },
+    "daily": {
+      "title": "Daily Challenge",
+      "desc": "Same 20 puzzles for every player, every day. Race against the clock at 2.5 seconds per round. Climb the daily leaderboard and build your streak."
+    },
+    "versus": {
+      "title": "2 Players - Split-Screen",
+      "desc": "Hand your iPhone to a friend and go head-to-head on the same screen. 10 rounds of reflex-testing mini-games. No second device needed."
+    }
+  },
+  "screenshots": {
+    "section_title": "See It in Action",
+    "alt_home": "Reflex Duels home screen - choose Solo, Daily Challenge, or 2 Players mode",
+    "alt_splitscreen": "Reflex Duels 2-player split-screen mode - head-to-head brain game duels on one iPhone",
+    "alt_minigames": "Reflex Duels mini-games variety - math, colors, symbols, and more brain training puzzles",
+    "alt_solo": "Reflex Duels solo mode gameplay - 9 speed zones from Calm to Impossible",
+    "alt_daily": "Reflex Duels daily challenge - same puzzles for all players worldwide every day",
+    "alt_gameover": "Reflex Duels game over screen - score, stats, streaks, and global leaderboard"
+  },
+  "features": {
+    "section_title": "Built for Speed",
+    "minigames": {
+      "title": "20+ Mini-Games",
+      "desc": "Math, Stroop tests, symbol search, flag quizzes, dice puzzles, reaction games, and more. Every round is a different brain challenge."
+    },
+    "zones": {
+      "title": "9 Speed Zones",
+      "desc": "Progressive difficulty from Calm to Impossible. The timer shrinks with every zone - can you reach the final stage?"
+    },
+    "gamecenter": {
+      "title": "Game Center",
+      "desc": "35 achievements to unlock. Track your progress with scores, streaks, perfect zones, and total rounds played."
+    },
+    "daily": {
+      "title": "Daily Challenges",
+      "desc": "A new set of 20 puzzles every day. Compete globally on the same challenge and earn free tokens."
+    },
+    "leaderboards": {
+      "title": "Global Leaderboards",
+      "desc": "Climb the all-time solo rankings and the daily challenge leaderboard. See how you stack up worldwide."
+    },
+    "design": {
+      "title": "Dark Theme",
+      "desc": "Zero distractions. Clean dark interface with instant haptic feedback. Every millisecond counts."
+    }
+  },
+  "cta": {
+    "tagline": "How fast is your brain?",
+    "subtitle": "Download Reflex Duels and find out.",
+    "button": "Download on the App Store"
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "support": "Support",
+    "tagline": "Reflex Duels - Brain Training & Reflex Game for iOS",
+    "copyright": "© 2025 Reflex Duels. All rights reserved."
+  }
+}
