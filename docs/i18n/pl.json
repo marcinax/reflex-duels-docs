@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Reflex Duels - Gry na Refleks | Szybkie Łamigłówki i Duele na iOS",
-    "description": "Myśl szybko. Reaguj szybciej. Reflex Duels to ponad 20 mini-gier, które sprawdzą Twój refleks, logikę i spostrzegawczość. Tryb solo, wyzwanie dnia i gra na 2 graczy. Pobierz za darmo na iOS."
+    "description": "Myśl szybko. Reaguj szybciej. Reflex Duels to gra na refleks i gra imprezowa w jednym - ponad 20 mini-gier solo lub z 2-4 graczami na jednym urządzeniu. Pobierz za darmo na iOS."
   },
   "nav": {
     "features": "O grze",
@@ -12,7 +12,7 @@
   "hero": {
     "headline_1": "Myśl szybko.",
     "headline_2": "Reaguj szybciej.",
-    "subtitle": "Ponad 20 mini-gier, które sprawdzą Twój refleks, logikę i spostrzegawczość - a na każdą masz zaledwie kilka sekund.",
+    "subtitle": "Ponad 20 mini-gier na refleks - graj solo lub z 2-4 osobami na jednym urządzeniu. Sprawdź swój refleks, logikę i spostrzegawczość.",
     "cta": "Pobierz z App Store"
   },
   "modes": {
@@ -26,14 +26,14 @@
       "desc": "Codziennie nowy zestaw 20 zagadek - taki sam dla wszystkich graczy na świecie. 2,5 sekundy na rundę, 3 życia. Sprawdź, jak wypadasz na tle innych i buduj swoją codzienną passę."
     },
     "versus": {
-      "title": "2 Graczy - Jeden ekran",
-      "desc": "Podaj telefon znajomemu i grajcie na podzielonym ekranie. Kto pierwszy trafi - zdobywa punkt. Kto się pomyli - traci. Idealne na imprezę, w podróż albo na przerwę."
+      "title": "Duel - 2-4 Graczy",
+      "desc": "Jeden iPhone, nawet czterech graczy. Gry na refleks w formacie best of 5 - do 3 wygranych. Podzielony ekran, bez dodatkowego sprzętu. Idealne na imprezę, w podróż albo na przerwę."
     }
   },
   "screenshots": {
     "section_title": "Zobacz w akcji",
-    "alt_home": "Ekran główny Reflex Duels - wybierz tryb Solo, Wyzwanie Dnia lub 2 Graczy",
-    "alt_splitscreen": "Reflex Duels tryb 2 graczy na podzielonym ekranie - duele na refleks na jednym iPhonie",
+    "alt_home": "Ekran główny Reflex Duels - wybierz tryb Solo, Wyzwanie Dnia lub Duel",
+    "alt_duel": "Reflex Duels tryb Duel - 2 do 4 graczy rywalizujących na jednym iPhonie",
     "alt_minigames": "Mini-gry Reflex Duels - matematyka, kolory, symbole i inne łamigłówki treningowe dla mózgu",
     "alt_solo": "Reflex Duels tryb solo - 9 stref szybkości od Calm do Impossible",
     "alt_daily": "Reflex Duels wyzwanie dnia - te same zagadki dla wszystkich graczy na świecie",

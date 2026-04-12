@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Reflex Duels - Brain Games | Fast Reflex & Puzzle Battles for iOS",
-    "description": "Think fast. Act faster. Reflex Duels features 20+ brain-bending mini-games - reaction speed tests, trivia, puzzles, and 2-player duels. Download free on iOS."
+    "description": "Think fast. Act faster. Reflex Duels is a brain game and party game in one - 20+ reflex mini-games, solo or with 2-4 players on one device. Download free on iOS."
   },
   "nav": {
     "features": "Features",
@@ -12,7 +12,7 @@
   "hero": {
     "headline_1": "Think fast.",
     "headline_2": "Act faster.",
-    "subtitle": "20+ brain-bending mini-games designed to challenge your reflexes, logic, and focus - all in seconds.",
+    "subtitle": "20+ reflex mini-games for solo play or multiplayer fun with 2-4 players on one device. Challenge your speed, logic, and focus.",
     "cta": "Download on the App Store"
   },
   "modes": {
@@ -26,14 +26,14 @@
       "desc": "Same 20 puzzles for every player, every day. Race against the clock at 2.5 seconds per round. Climb the daily leaderboard and build your streak."
     },
     "versus": {
-      "title": "2 Players - Split-Screen",
-      "desc": "Hand your iPhone to a friend and go head-to-head on the same screen. 10 rounds of reflex-testing mini-games. No second device needed."
+      "title": "Duel - 2-4 Players",
+      "desc": "Pass one iPhone around and challenge up to three friends. Tap-to-react mini-games, split-screen layout. Best of 5 - first to 3 wins. No second device needed."
     }
   },
   "screenshots": {
     "section_title": "See It in Action",
-    "alt_home": "Reflex Duels home screen - choose Solo, Daily Challenge, or 2 Players mode",
-    "alt_splitscreen": "Reflex Duels 2-player split-screen mode - head-to-head brain game duels on one iPhone",
+    "alt_home": "Reflex Duels home screen - choose Solo, Daily Challenge, or Duel mode",
+    "alt_duel": "Reflex Duels Duel mode — 2 to 4 players competing on one iPhone",
     "alt_minigames": "Reflex Duels mini-games variety - math, colors, symbols, and more brain training puzzles",
     "alt_solo": "Reflex Duels solo mode gameplay - 9 speed zones from Calm to Impossible",
     "alt_daily": "Reflex Duels daily challenge - same puzzles for all players worldwide every day",
